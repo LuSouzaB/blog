@@ -1,0 +1,16 @@
+{
+  "nome": "Lucélia",
+  "email": "souzabarbosalu@gmail.com",
+  "senha": "654321"
+}
+
+{
+  "email": "tsouzabarbosalu@gmail.com",
+  "senha": "654321"
+}
+
+Authorization: Bearer SEU_TOKEN_AQUI
+
+{
+  "texto": "Minha primeira mensagem"
+}
