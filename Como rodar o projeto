@@ -1,0 +1,12 @@
+# Clone o repositório
+git clone https://github.com/thobiask/blog-api.git
+cd blog-api
+
+# Instale as dependências
+npm install
+
+# Crie o banco de dados e tabelas
+npm run criar-db
+
+# Inicie o servidor
+npm start
