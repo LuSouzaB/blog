@@ -33,30 +33,26 @@ Cadastrar um novo usuário
 POST /inscrição
 Cadastrar um novo usuário
 
-{
-  "nome": "Thobias",
-  "email": "thobias@email.com",
-  "senha": "123456"
-}
-POSTAR /login
-Realize login e retorne token
+{ "nome": "Lucélia", 
+"email": " souzabarbosalu@email.com ", 
+"senha": "654321" 
+} 
 
-{
-  "email": "thobias@email.com",
-  "senha": "123456"
-}
-POST /mensagens
-Cria uma mensagem (token JWT obrigatório no cabeçalho)
-Cabeçalho:
+POSTAR /login Realizar login e retornar token
 
-Authorization: Bearer SEU_TOKEN_AQUI
-Corpo:
+{ "email": " souzabarbosalu@email.com ",
+"senha": "654321" } 
 
-{
-  "texto": "Minha primeira mensagem"
-}
-OBTER /mensagens
-Lista todas as mensagens cadastradas
+#POST /mensagens Cria uma mensagem 
 
-🧑‍🏫 Desenvolvido por
-Thobias Karpinski – Pós-graduação Inovação e Tecnologia – IFSC
+(token JWT obrigatório no cabeçalho) 
+
+#Cabeçalho:
+
+Autorização: Portador SEU_TOKEN_AQUI Corpo:
+
+{ "texto": "Minha primeira mensagem" } OBTER /mensagens Lista todas as mensagens cadastradas
+
+#🧑‍🏫 Desenvolvido por 
+
+Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
