@@ -18,10 +18,6 @@ Este projeto é uma API RESTful para um sistema de blog com cadastro de usuário
 
 ---
 
-🔐 Rotas da API
-
----
-
 ## 🔐 Rotas da API
 
 ### ➡️ POST /inscrição  
@@ -34,16 +30,21 @@ Este projeto é uma API RESTful para um sistema de blog com cadastro de usuário
   "senha": "654321"
 }
 
+---
 
 ➡️ POST /login
 Realizar login e retornar token
 
 '''
 
+---
+
 {
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
 }
+
+---
 
 ➡️ POST /mensagens
 Cria uma mensagem (token JWT obrigatório no cabeçalho)
@@ -54,6 +55,7 @@ makefile
 
 Authorization: Bearer SEU_TOKEN_AQUI
 
+---
 
 Corpo:
 
@@ -65,7 +67,8 @@ Corpo:
 
 ➡️ Obter /mensagens
 Lista todas as mensagens cadastradas
+
 --- 
 
 🧑‍🏫 Desenvolvido por
-Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
+Lucélia S. Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
