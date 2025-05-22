@@ -48,14 +48,14 @@ Cria uma mensagem (token JWT obrigatório no cabeçalho)
 
 ---
 
-Cabeçalho:
+#Cabeçalho:
 
 makefile
 Authorization: Bearer SEU_TOKEN_AQUI
 
 ---
 
-Corpo:
+#Corpo:
 
 {
   "texto": "Minha primeira mensagem"
@@ -63,8 +63,10 @@ Corpo:
 
 ---
 
-➡️ GET /mensagens
+# Obter /mensagens
 Lista todas as mensagens cadastradas
 
-🧑‍🏫 Desenvolvido por
+--- 
+
+#🧑‍🏫 Desenvolvido por
 Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
