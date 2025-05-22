@@ -1,14 +1,16 @@
 
-📚 API do Blog – Node.js, Express e SQLite
+
+# 📚 API do Blog – Node.js, Express e SQLite
 Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
-🚀 Tecnologias
+# 🚀 Tecnologias
 Node.js
 Express.js
 SQLite com Knex.js
 JWT (Token Web JSON)
 bcryptjs
-📦 Como rodar o projeto
+
+# 📦 Como rodar o projeto
 # Clone o repositório
 git clone https://github.com/LuSouzaB/blog.git
 cd blog-api
