@@ -34,7 +34,7 @@ http://localhost:3000
 
 ---
 
-🔐 Rotas da API
+# 🔐 Rotas da API
 
 ➡️ POST /inscrição
 
@@ -59,7 +59,7 @@ Cadastrar um novo usuário
 ```
 
 
-➡️ POST /mensagens
+ ➡️ POST /mensagens
 
 ```
 
@@ -83,6 +83,6 @@ Lista todas as mensagens cadastradas
 
 ---
 
-🧑‍🏫 Desenvolvido por
+# 🧑‍🏫 Desenvolvido por
 
 Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
