@@ -16,7 +16,11 @@ Este projeto é uma API RESTful para um sistema de blog com cadastro de usuário
 
 ## 📦 Como rodar o projeto
 
+---
+
 🔐 Rotas da API
+
+---
 
 ➡️ POST /inscrição
 Cadastrar um novo usuário
@@ -27,6 +31,8 @@ Cadastrar um novo usuário
   "senha": "654321"
 }
 
+---
+
 ➡️ POST /login
 Realizar login e retornar token
 
@@ -34,18 +40,28 @@ Realizar login e retornar token
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
 }
+
+---
+
 ➡️ POST /mensagens
 Cria uma mensagem (token JWT obrigatório no cabeçalho)
+
+---
 
 Cabeçalho:
 
 makefile
 Authorization: Bearer SEU_TOKEN_AQUI
+
+---
+
 Corpo:
 
 {
   "texto": "Minha primeira mensagem"
 }
+
+---
 
 ➡️ GET /mensagens
 Lista todas as mensagens cadastradas
