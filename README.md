@@ -27,16 +27,18 @@ Este projeto é uma API RESTful para um sistema de blog com cadastro de usuário
 ### ➡️ POST /inscrição  
 **Cadastrar um novo usuário**  
 
-```json
+```
 {
   "nome": "Lucélia",
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
 }
+
+
 ➡️ POST /login
 Realizar login e retornar token
 
-'''json
+'''
 
 {
   "email": "souzabarbosalu@email.com",
@@ -51,9 +53,11 @@ Cabeçalho:
 makefile
 
 Authorization: Bearer SEU_TOKEN_AQUI
+
+
 Corpo:
 
-'''json
+'''
 
 {
   "texto": "Minha primeira mensagem"
