@@ -30,7 +30,11 @@ Este projeto é uma API RESTful para um sistema de blog com cadastro de usuário
   "senha": "654321"
 }
 
+
+
 ➡️ POST /login
+
+
 Realizar login e retornar token
 
 {
@@ -43,6 +47,7 @@ Realizar login e retornar token
 Cria uma mensagem (token JWT obrigatório no cabeçalho)
 
 Cabeçalho:
+
 
 makefile
 
