@@ -1,3 +1,4 @@
+
 📚 API do Blog – Node.js, Express e SQLite
 Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
