@@ -2,56 +2,108 @@
 
 Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
-# 🚀 Tecnologias
--Node.js
--Express.js
--SQLite com Knex.js
--JWT (Token Web JSON)
--bcryptjs
+---
 
-# 📦 Como rodar o projeto
-# Clone o repositório
+## 🚀 Tecnologias
+
+- Node.js
+- Express.js
+- SQLite com Knex.js
+- JWT (Token Web JSON)
+- bcryptjs
+
+---
+
+## 📦 Como rodar o projeto
+
+```bash
+# Clonar o repositório
 git clone https://github.com/LuSouzaB/blog.git
 cd blog-api
 
-## Instale as dependências
+# Instalar as dependências
 npm install
 
-## Crie o banco de dados e tabelas
+# Criar o banco de dados e tabelas
 npm run criar-db
 
-## Inicie o servidor
+# Iniciar o servidor
 npm start
+# 📚 API do Blog – Node.js, Express e SQLite
 
-Uma API estará disponível em: http://localhost:3000
+Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
-#🔐 Rotas da API
+---
 
-#POST /inscrição
+## 🚀 Tecnologias
 
-#Cadastrar um novo usuário
+- Node.js
+- Express.js
+- SQLite com Knex.js
+- JWT (Token Web JSON)
+- bcryptjs
 
-#POST /inscrição
+---
+
+## 📦 Como rodar o projeto
+
+```bash
+# Clonar o repositório
+git clone https://github.com/LuSouzaB/blog.git
+cd blog-api
+
+# Instalar as dependências
+npm install
+
+# Criar o banco de dados e tabelas
+npm run criar-db
+
+# Iniciar o servidor
+npm start
+Uma API estará disponível em:
+http://localhost:3000
+
+🔐 Rotas da API
+➡️ POST /inscrição
 Cadastrar um novo usuário
 
-{ "nome": "Lucélia", 
-"email": " souzabarbosalu@email.com ", 
-"senha": "654321" 
-} 
+json
+Copiar
+Editar
+{
+  "nome": "Lucélia",
+  "email": "souzabarbosalu@email.com",
+  "senha": "654321"
+}
+➡️ POST /login
+Realizar login e retornar token
 
-#POSTAR /login Realizar login e retornar token
+json
+Copiar
+Editar
+{
+  "email": "souzabarbosalu@email.com",
+  "senha": "654321"
+}
+➡️ POST /mensagens
+Cria uma mensagem (token JWT obrigatório no cabeçalho)
 
-{ "email": " souzabarbosalu@email.com ",
-"senha": "654321" } 
+Cabeçalho:
 
-#POST /mensagens Cria uma mensagem 
+makefile
+Copiar
+Editar
+Authorization: Bearer SEU_TOKEN_AQUI
+Corpo:
 
-(token JWT obrigatório no cabeçalho) 
+json
+Copiar
+Editar
+{
+  "texto": "Minha primeira mensagem"
+}
+➡️ GET /mensagens
+Lista todas as mensagens cadastradas
 
-#Cabeçalho:
-
-Autorização: Portador SEU_TOKEN_AQUI Corpo:
-
-#🧑‍🏫 Desenvolvido por 
-
+🧑‍🏫 Desenvolvido por
 Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
