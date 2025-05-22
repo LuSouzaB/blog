@@ -65,8 +65,12 @@ Corpo:
   "texto": "Minha primeira mensagem"
 }
 
-➡️ Obter /mensagens
+---
+
+➡️ GET /mensagens
 Lista todas as mensagens cadastradas
+
+---
 
 🧑‍🏫 Desenvolvido por
 Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
