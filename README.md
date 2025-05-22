@@ -17,18 +17,19 @@ Este projeto é uma API RESTful para um sistema de blog com cadastro de usuário
 ## 📦 Como rodar o projeto
 
 ```bash
-# Clonar o repositório
+## Clonar o repositório
 git clone https://github.com/LuSouzaB/blog.git
 cd blog-api
 
-# Instalar as dependências
+## Instalar as dependências
 npm install
 
-# Criar o banco de dados e tabelas
+## Criar o banco de dados e tabelas
 npm run criar-db
 
-# Iniciar o servidor
+## Iniciar o servidor
 npm start
+
 Uma API estará disponível em:
 http://localhost:3000
 
@@ -51,6 +52,7 @@ Realizar login e retornar token
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
 }
+
 ➡️ POST /mensagens
 Cria uma mensagem (token JWT obrigatório no cabeçalho)
 
@@ -63,7 +65,7 @@ Corpo:
   "texto": "Minha primeira mensagem"
 }
 
-➡️ GET /mensagens
+➡️ Obter /mensagens
 Lista todas as mensagens cadastradas
 
 🧑‍🏫 Desenvolvido por
