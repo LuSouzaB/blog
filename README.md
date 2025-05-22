@@ -15,8 +15,9 @@ Este projeto é uma API RESTful para um sistema de blog com cadastro de usuário
 ---
 
 # 📦 Como rodar o projeto
-
+```
 Clonar o repositório
+
 git clone https://github.com/LuSouzaB/blog.git
 cd blog-api
 
@@ -28,6 +29,8 @@ npm run criar-db
 
 Iniciar o servidor
 npm start
+
+```
 
 Uma API estará disponível em:
 http://localhost:3000
