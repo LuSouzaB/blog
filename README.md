@@ -3,18 +3,18 @@
 Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
 # 🚀 Tecnologias
-Node.js
-Express.js
-SQLite com Knex.js
-JWT (Token Web JSON)
-bcryptjs
+-Node.js
+-Express.js
+-SQLite com Knex.js
+-JWT (Token Web JSON)
+-bcryptjs
 
 # 📦 Como rodar o projeto
 # Clone o repositório
 git clone https://github.com/LuSouzaB/blog.git
 cd blog-api
 
-# Instale as dependências
+## Instale as dependências
 npm install
 
 ## Crie o banco de dados e tabelas
@@ -26,11 +26,12 @@ npm start
 Uma API estará disponível em: http://localhost:3000
 
 #🔐 Rotas da API
-POST /inscrição
 
-Cadastrar um novo usuário
+#POST /inscrição
 
-POST /inscrição
+#Cadastrar um novo usuário
+
+#POST /inscrição
 Cadastrar um novo usuário
 
 { "nome": "Lucélia", 
@@ -38,7 +39,7 @@ Cadastrar um novo usuário
 "senha": "654321" 
 } 
 
-POSTAR /login Realizar login e retornar token
+#POSTAR /login Realizar login e retornar token
 
 { "email": " souzabarbosalu@email.com ",
 "senha": "654321" } 
@@ -50,8 +51,6 @@ POSTAR /login Realizar login e retornar token
 #Cabeçalho:
 
 Autorização: Portador SEU_TOKEN_AQUI Corpo:
-
-{ "texto": "Minha primeira mensagem" } OBTER /mensagens Lista todas as mensagens cadastradas
 
 #🧑‍🏫 Desenvolvido por 
 
