@@ -3,15 +3,11 @@
 Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
 # 🚀 Tecnologias
-Símbolo	O que faz?
-#	Título grande (H1)
-##	Título médio (H2)
-###	Subtítulo (H3)
--Node.js
--Express.js
--SQLite com Knex.js
--JWT (Token Web JSON)
--bcryptjs
+Node.js
+Express.js
+SQLite com Knex.js
+JWT (Token Web JSON)
+bcryptjs
 
 # 📦 Como rodar o projeto
 # Clone o repositório
@@ -32,23 +28,24 @@ Uma API estará disponível em: http://localhost:3000
 #🔐 Rotas da API
 POST /inscrição
 
-##Cadastrar um novo usuário
+Cadastrar um novo usuário
+
+POST /inscrição
+Cadastrar um novo usuário
 
 {
-  "nome": "Lucélia",
-  "email": "souzabarbosalu@email.com",
-  "senha": "654321"
+  "nome": "Thobias",
+  "email": "thobias@email.com",
+  "senha": "123456"
 }
-
-##POSTAR /login
+POSTAR /login
 Realize login e retorne token
 
 {
-  "email": "souzabarbosalu@email.com",
-  "senha": "654321"
+  "email": "thobias@email.com",
+  "senha": "123456"
 }
-
-##POST /mensagens
+POST /mensagens
 Cria uma mensagem (token JWT obrigatório no cabeçalho)
 Cabeçalho:
 
@@ -61,5 +58,5 @@ Corpo:
 OBTER /mensagens
 Lista todas as mensagens cadastradas
 
-#🧑‍🏫 Desenvolvido por
-Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
+🧑‍🏫 Desenvolvido por
+Thobias Karpinski – Pós-graduação Inovação e Tecnologia – IFSC
