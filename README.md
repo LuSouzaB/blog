@@ -1,6 +1,55 @@
-# blog
+📚 API do Blog – Node.js, Express e SQLite
+Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
-## Tecnologia do projeto
-API REST com Node, Express e Knex.
+🚀 Tecnologias
+Node.js
+Express.js
+SQLite com Knex.js
+JWT (Token Web JSON)
+bcryptjs
+📦 Como rodar o projeto
+# Clone o repositório
+git clone https://github.com/LuSouzaB/blog.git
+cd blog-api
 
-A API é um conjunto simples de serviços presentes em um blog.
+# Instale as dependências
+npm install
+
+# Crie o banco de dados e tabelas
+npm run criar-db
+
+# Inicie o servidor
+npm start
+Uma API estará disponível em: http://localhost:3000
+
+🔐 Rotas da API
+POST /inscrição
+Cadastrar um novo usuário
+
+{
+  "nome": "Lucélia",
+  "email": "souzabarbosalu@email.com",
+  "senha": "654321"
+}
+POSTAR /login
+Realize login e retorne token
+
+{
+  "email": "souzabarbosalu@email.com",
+  "senha": "654321"
+}
+POST /mensagens
+Cria uma mensagem (token JWT obrigatório no cabeçalho)
+Cabeçalho:
+
+Authorization: Bearer SEU_TOKEN_AQUI
+Corpo:
+
+{
+  "texto": "Minha primeira mensagem"
+}
+OBTER /mensagens
+Lista todas as mensagens cadastradas
+
+🧑‍🏫 Desenvolvido por
+Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
