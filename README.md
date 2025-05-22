@@ -36,20 +36,17 @@ http://localhost:3000
 ➡️ POST /inscrição
 Cadastrar um novo usuário
 
-json
-Copiar
-Editar
+
 {
   "nome": "Lucélia",
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
 }
+
 ➡️ POST /login
 Realizar login e retornar token
 
-json
-Copiar
-Editar
+
 {
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
@@ -59,18 +56,13 @@ Cria uma mensagem (token JWT obrigatório no cabeçalho)
 
 Cabeçalho:
 
-makefile
-Copiar
-Editar
 Authorization: Bearer SEU_TOKEN_AQUI
 Corpo:
 
-json
-Copiar
-Editar
 {
   "texto": "Minha primeira mensagem"
 }
+
 ➡️ GET /mensagens
 Lista todas as mensagens cadastradas
 
