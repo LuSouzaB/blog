@@ -1,6 +1,5 @@
-
-
 # 📚 API do Blog – Node.js, Express e SQLite
+
 Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
 # 🚀 Tecnologias
@@ -18,30 +17,34 @@ cd blog-api
 # Instale as dependências
 npm install
 
-# Crie o banco de dados e tabelas
+## Crie o banco de dados e tabelas
 npm run criar-db
 
-# Inicie o servidor
+## Inicie o servidor
 npm start
+
 Uma API estará disponível em: http://localhost:3000
 
-🔐 Rotas da API
+#🔐 Rotas da API
 POST /inscrição
-Cadastrar um novo usuário
+
+##Cadastrar um novo usuário
 
 {
   "nome": "Lucélia",
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
 }
-POSTAR /login
+
+##POSTAR /login
 Realize login e retorne token
 
 {
   "email": "souzabarbosalu@email.com",
   "senha": "654321"
 }
-POST /mensagens
+
+##POST /mensagens
 Cria uma mensagem (token JWT obrigatório no cabeçalho)
 Cabeçalho:
 
@@ -54,5 +57,5 @@ Corpo:
 OBTER /mensagens
 Lista todas as mensagens cadastradas
 
-🧑‍🏫 Desenvolvido por
+#🧑‍🏫 Desenvolvido por
 Lucélia Souza Barbosa – Pós-graduação Inovação e Tecnologia – IFSC
