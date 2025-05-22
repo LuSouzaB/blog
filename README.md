@@ -3,11 +3,15 @@
 Este projeto é uma API RESTful para um sistema de blog com cadastro de usuários, autenticação JWT e postagem de mensagens.
 
 # 🚀 Tecnologias
-Node.js
-Express.js
-SQLite com Knex.js
-JWT (Token Web JSON)
-bcryptjs
+Símbolo	O que faz?
+#	Título grande (H1)
+##	Título médio (H2)
+###	Subtítulo (H3)
+-Node.js
+-Express.js
+-SQLite com Knex.js
+-JWT (Token Web JSON)
+-bcryptjs
 
 # 📦 Como rodar o projeto
 # Clone o repositório
